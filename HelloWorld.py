@@ -26,6 +26,7 @@ import time
 # print (et)
 
 
+# FILE WORK
 f = open("ussyms.txt","r")
 st=time.clock()
 for line in f:
@@ -33,3 +34,19 @@ for line in f:
     temp = line
 et=time.clock()
 print(et-st)
+
+
+# ARRAY WORK
+st=time.clock()
+
+tempArray = []
+
+for i in range(0,1000000):
+    # print(i)
+    tempArray.append(i)
+et=time.clock()-st
+print (et)
+
+tempArray.sort(reverse=True)
+
+print(tempArray)
