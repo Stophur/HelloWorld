@@ -18,9 +18,18 @@ import time
 
 # start = 1
 # temp = 1
+# st=time.clock()
+# for i in range(0,1000000):
+#     # print(i)
+#     temp = i
+# et=time.clock()-st
+# print (et)
+
+
+f = open("ussyms.txt","r")
 st=time.clock()
-for i in range(0,1000000):
-    # print(i)
-    temp = i
-et=time.clock()-st
-print (et)
+for line in f:
+    # print (line)
+    temp = line
+et=time.clock()
+print(et-st)
