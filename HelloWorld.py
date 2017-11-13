@@ -73,14 +73,19 @@ def cube(x):
 
 # YOUR TURN
 # This function should return the parameter (x) squared
+
 def square(x):
-    return
+    return()
+
+def square(x):
+    return x*x
+
 
 
 # This function should ask for your name, then return that string
 # No test for this, try to test with a print statement
 def your_name():
-    name = ""
+    name = "Chris"
     # http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/io.html
     return name
 
@@ -95,7 +100,7 @@ def your_name():
 # ####
 # #####
 # Array looks like ["#", "##", "###", "####", "#####"]
-def half_pyramid(height):    
+def half_pyramid(12):    
     pyramid = []
 
     # Build your pyramid
