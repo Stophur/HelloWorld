@@ -10,7 +10,10 @@ class TestStringMethods(unittest.TestCase):
         self.assertEqual(HelloWorld.times_three(3), 9)
 
     def test_cubed(self):
-        self.assertEqual(HelloWorld.cube(3), 9)
+        self.assertEqual(HelloWorld.cube(3), 27)
+
+    def test_square(self):   
+        self.assertEqual(HelloWorld.square(3), 9)
 
     def test_buildtriangle(self):
         self.assertEqual(HelloWorld.half_pyramid(5), 
