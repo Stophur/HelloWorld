@@ -1,0 +1,9 @@
+def square(x):
+    y = x * x
+    return y
+
+toSquare = 5
+result = square(toSquare)
+print "The result of " + str(toSquare) + " squared is " + str(result)
+
+

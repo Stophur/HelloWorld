@@ -74,20 +74,28 @@ def cube(x):
 # YOUR TURN
 # This function should return the parameter (x) squared
 
-def square(x):
-    return()
+# def square(x):
+#     return()
+
+# def square(x):
+#     return x*x
 
 def square(x):
-    return x*x
+    y = x * x
+    x = 5
+    return y
 
+toSquare = 5
+result = square(toSquare)
+print ("The result of " + str(toSquare) + " squared is " + str(result))
 
 
 # This function should ask for your name, then return that string
 # No test for this, try to test with a print statement
 def your_name():
-    name = "Chris"
     # http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/io.html
-    return name
+    return 
+
 
 
 # This function takes in a height and returns a half pyramid of that height,
