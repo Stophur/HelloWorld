@@ -132,9 +132,10 @@ half_pyramid(n)
 def num_pyramid(n):
     number = 1
     for x in range(0, n):
+        number = 1 
         for y in range(0, x+1):
             print(number, end="")
-        number = number + 1
+            number = number + 1
         print("")
     
 n = 5
