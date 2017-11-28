@@ -129,6 +129,30 @@ def half_pyramid(n):
 n = 5
 half_pyramid(n)
 
+
+
+# Zachs Half Pyramid
+def z_half_pyramid(height):
+    # If the width at the widest point is the same as the height...
+    for row in range(1,height+1):
+        # For each row we need to construct the string of text to output
+        
+        # Start with a fresh string for each row 
+        startingString = ""
+        for character in range(1,row+1):
+            # Add the character to the end of the string as many time as
+            # the number of the row we are in
+            startingString += "#"
+        
+        # Now that we have constructed our line, we can print it to the screen
+        print(startingString)
+
+        # Now that we have made the string and printed it, it is on to the next
+        # row
+
+z_half_pyramid(50)
+
+
 # This function should take a symbol and, if the symbol exists in the s&p 
 # stock symbol file, return the line number that the symbol exists on, 
 # otherwise return 0
@@ -145,3 +169,16 @@ def find_symbol(sym):
         # if the stock symbol is in the line, return the counter
 
     return 0
+
+
+# This function takes a character and for that character, returns the number
+# of times it appears in our this string: 
+# "s;dkfhacnpsodjamcpsodijfa;slkcnapofhg;aslkcjoasijdc;alksjdf"
+def count_char(charcter):
+    test_string = "s;dkfhacnpsodjamcpsodijfa;slkcnapofhg;aslkcjoasijdc;alksjdf"
+
+    count = 0
+
+    for ...
+
+    return count

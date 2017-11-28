@@ -23,6 +23,9 @@ class TestStringMethods(unittest.TestCase):
         self.assertEqual(HelloWorld.find_symbol("BTC/WS"), 332)
         self.assertFalse(HelloWorld.find_symbol("Tacos"))
 
+    def test_count_char(self):
+        self.assertEqual(HelloWorld.count_char(";"), 4)
+
 
 if __name__ == '__main__':
     unittest.main()
