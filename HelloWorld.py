@@ -124,10 +124,23 @@ def half_pyramid(x):
 def half_pyramid(n):
     for x in range(0, n):
         for y in range(0, x+1):
-            print("*" ,end="")
-        print("\r")
+            print("*",end="")
+        print("")
 n = 5
 half_pyramid(n)
+
+def num_pyramid(n):
+    number = 1
+    for x in range(0, n):
+        for y in range(0, x+1):
+            print(number, end="")
+        number = number + 1
+        print("")
+    
+n = 5
+num_pyramid(n)
+
+
 
 # This function should take a symbol and, if the symbol exists in the s&p 
 # stock symbol file, return the line number that the symbol exists on, 
