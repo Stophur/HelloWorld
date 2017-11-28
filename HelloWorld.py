@@ -87,7 +87,8 @@ def square(x):
 
 toSquare = 5
 result = square(toSquare)
-print ("The result of " + str(toSquare) + " squared is " + str(result))
+print( "The result of " + str(toSquare) + " squared is " + str(result))
+
 
 
 # This function should ask for your name, then return that string
@@ -108,7 +109,7 @@ def your_name():
 # ####
 # #####
 # Array looks like ["#", "##", "###", "####", "#####"]
-def half_pyramid(12):    
+def half_pyramid(x):    
     pyramid = []
 
     # Build your pyramid
@@ -119,7 +120,14 @@ def half_pyramid(12):
         # pyramid.append("something")
 
     return pyramid
-    
+
+def half_pyramid(n):
+    for x in range(0, n):
+        for y in range(0, x+1):
+            print("*" ,end="")
+        print("\r")
+n = 5
+half_pyramid(n)
 
 # This function should take a symbol and, if the symbol exists in the s&p 
 # stock symbol file, return the line number that the symbol exists on, 
