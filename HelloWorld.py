@@ -149,7 +149,7 @@ def z_half_pyramid(height):
         # Now that we have made the string and printed it, it is on to the next
         # row
 
-z_half_pyramid(50)
+z_half_pyramid(5)
 
 def num_pyramid(n):
     number = 1
@@ -181,6 +181,18 @@ def find_symbol(sym):
     return 0
 
 
+# f = open("/Users/TechStack/HelloWorld/nasdaqlisted.txt","r")
+# symbols = f.read()
+# print (symbols)
+
+f = open("/Users/TechStack/HelloWorld/nasdaqlisted.txt","r")
+for line in f:
+    if "APL" in line: 
+        print(line)
+
+
+
+
 # This function takes a character and for that character, returns the number
 # of times it appears in our this string: 
 # "s;dkfhacnpsodjamcpsodijfa;slkcnapofhg;aslkcjoasijdc;alksjdf"
@@ -189,6 +201,6 @@ def count_char(charcter):
 
     count = 0
 
-    for ...
+#  for ...
 
     return count
